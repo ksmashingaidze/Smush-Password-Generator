@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/aboutlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:minWidth="25px"
+    android:minHeight="25px">
+
+    <TextView
+        android:text="@string/aboutsmush1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/textView12"
+        android:layout_toLeftOf="@id/textView13"
+        android:id="@+id/textView1" />
+    <TextView
+        android:text="@string/emptystring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:id="@+id/textView2" />
+    <TextView
+        android:text="@string/aboutsmush2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_toRightOf="@id/textView12"
+        android:layout_toLeftOf="@id/textView13"
+        android:id="@+id/textView3" />
+    <TextView
+        android:text="@string/emptystring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:id="@+id/textView4" />
+    <TextView
+        android:text="@string/aboutsmush3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_toRightOf="@id/textView12"
+        android:layout_toLeftOf="@id/textView13"
+        android:id="@+id/textView5" />
+    <TextView
+        android:text="@string/emptystring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:id="@+id/textView6" />
+    <TextView
+        android:text="@string/aboutsmush4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_toRightOf="@id/textView12"
+        android:layout_toLeftOf="@id/textView13"
+        android:id="@+id/textView7" />
+    <TextView
+        android:text="@string/emptystring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7"
+        android:id="@+id/textView8" />
+    <TextView
+        android:text="@string/aboutsmush5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView8"
+        android:layout_toRightOf="@id/textView12"
+        android:layout_toLeftOf="@id/textView13"
+        android:id="@+id/textView9" />
+    <TextView
+        android:text="@string/emptystring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:id="@+id/textView10" />
+    <TextView
+        android:text="@string/aboutsmush6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_toRightOf="@id/textView12"
+        android:layout_toLeftOf="@id/textView13"
+        android:id="@+id/textView11" />
+    <TextView
+        android:text="@string/essential"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textView12" />
+    <TextView
+        android:text="@string/essential"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/textView13" />
+
+        <!-- <com.google.android.gms.ads.AdView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/adunitid"
+        ads:adSize="BANNER"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/adView1" /> -->
+
+
+</RelativeLayout>

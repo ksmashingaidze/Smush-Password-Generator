@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Smush</string>
+	<string name="content_second_name">Password Generator</string>
+	<string name="content_third_name">Customize Password</string>
+	<string name="content_fourth_name">Password Bank</string>
+	<string name="content_fifth_name">Settings</string>
+	<string name="content_sixth_name">About</string>
+    <string name="action_settings">Settings</string>
+	<string name="action_about">About</string>
+	<string name="action_mute">Mute</string>
+	<string name="action_custom_pass">Customize Password</string>
+	<string name="action_pass_bank">Password Bank</string>
+	<string name="action_pass_gen">Password Generator</string>
+	<string name="action_exit">Exit</string>
+	<string name="action_eula">EULA</string>
+    <string name="password_generator">Password Generator</string>
+    <string name="start">START</string>
+	<string name="smushlogo">SMUSH</string>
+	<string name="essential">*</string>
+	<string name="prompt1">Total number of characters required (max. 16):</string>
+	<string name="prompt2">Number of letters required (Optional):</string>
+	<string name="prompt3">Number of digits required (Optional):</string>
+	<string name="prompt4">Number of symbols required (Optional):</string>
+	<string name="prompt5">Title of Entry (max. 100 entries):</string>
+	<string name="prompt6">Password:</string>
+	<string name="prompt7">Security question (Optional):</string>
+	<string name="prompt8">Security response (Optional):</string>
+	<string name="prompt9">Please select a saved entry:</string>
+	<string name="savedentry">Saved Entry</string>
+	<string name="generate">GENERATE</string>
+	<string name="save">SAVE</string>
+	<string name="clear">CLEAR</string>
+	<string name="sound">Sound</string>
+	<string name="darkmode">Dark Mode</string>
+	<string name="question">Security question:</string>
+	<string name="answer">Please enter the security response:</string>
+	<string name="unlock">UNLOCK</string>
+	<string name="delete">DELETE</string>
+	<string name="nopasswords">There are no saved passwords.</string>
+	<string name="cuspassprompt">Select</string>
+	<string-array name="cuspassarray">
+		<item>None</item>
+		<item>Who is your most influential role model?</item>
+		<item>What is your favorite movie?</item>
+		<item>Where did you meet your signifant other?</item>
+		<item>What is your favorite book?</item>
+		<item>What is your custom keyword/keyphrase?</item>	
+	</string-array>
+	<string name="emptystring"></string>
+	<string name="aboutsmush1">Smush is a free password generator which allows the user to quickly create random or personalized passwords for use across their digital services. Passwords can be named and saved to the password bank for future reference. The user is also provided with the option of  locking passwords with a security question to prevent unauthorized access.</string>
+	<string name="aboutsmush2">Random passwords must be 3-16 characters long, and must contain at least 1 of each character type.</string>
+	<string name="aboutsmush3">Customized passwords, accessed using the drop-down menu or ‘Save’ button, provide greater flexibility and are not governed by the character type restriction. Spaces and new lines are not permitted in the title and password fields. Security questions are optional, and must be accompanied by a security response if they are used. New lines are not permitted in the security response.</string>
+	<string name="aboutsmush4">Passwords can be saved to the password bank. If a password is protected by a security question, the correct security response must be entered in order to unlock it. To ensure optimum levels of security are maintained, saved passwords must be unlocked before they can be deleted.</string>
+	<string name="aboutsmush5">I hope you enjoy using Smush. Bonsoir!</string>
+	<string name="aboutsmush6">- Kuzi</string>
+	<string name="eulatext">
+		Unauthorized copying of this proprietary and confidential file, through any medium, is strictly prohibited. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND. THE AUTHOR OF THIS SOFTWARE WILL BE LIABLE FOR NO CLAIMS, LIABILITIES, OR DAMAGES RELATED TO THE SOFTWARE OR ITS USE.\n\nKuziwakwashe Stephen Mashingaidze\nJanuary 2022
+	</string>
+	<!--<string name="adunitid">ca-app-pub-8980020729808854~2621520258</string> -->
+</resources>
